@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Navigation from '../components/navigation';
+import Footer from '../components/footer';
 
 const Layout = ({ children }) => {
     return (
@@ -9,6 +10,7 @@ const Layout = ({ children }) => {
             <main>
                 {children}
             </main>
+            <Footer />
         </React.Fragment>
     );
 };

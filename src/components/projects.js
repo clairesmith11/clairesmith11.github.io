@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 const Projects = ({ imageData, title, description, tools, siteUrl, codeUrl, projectNumber }) => {
 
     return (
-        <Container id="projects">
+        <Container id="projects" className="margin-bottom-lg">
             {projectNumber % 2 === 0 ?
                 <Row className="my-5 mx-auto">
                     <Col md={6}>

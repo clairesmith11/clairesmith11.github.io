@@ -6,7 +6,6 @@ import Projects from '../components/projects';
 import Header from '../components/header';
 import About from '../components/about';
 import Skills from '../components/skills';
-import Footer from '../components/footer';
 
 import './index.scss';
 
@@ -50,11 +49,11 @@ const IndexPage = () => {
   return (
     <Layout>
       <Header />
-      <h1 className="main-headline text-center mb-5">ABOUT<span className="text-primary">ME</span></h1>
+      <h1 className="main-headline text-center margin-bottom-md">ABOUT<span className="text-primary">ME</span></h1>
       <About data={data} />
-      <h1 className="main-headline text-center mb-5">MY<span className="text-primary">SKILLS</span></h1>
+      <h1 className="main-headline text-center margin-bottom-md">MY<span className="text-primary">SKILLS</span></h1>
       <Skills />
-      <h1 className="main-headline text-center mb-5">MY<span className="text-primary">PROJECTS</span></h1>
+      <h1 className="main-headline text-center margin-bottom-md">MY<span className="text-primary">PROJECTS</span></h1>
       {projects.map(({ node: project }, index) => {
         const { title, description, tools, siteUrl, codeUrl } = project;
         const imageData = project.image.childImageSharp.fluid;
@@ -70,7 +69,6 @@ const IndexPage = () => {
           />
         );
       })}
-      <Footer />
     </Layout>
   );
 };
