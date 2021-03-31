@@ -21,6 +21,7 @@ const About = ({ data }) => {
           <Image fluid={data.headshot.childImageSharp.fluid} alt="Claire Smith" className="self-portrait rounded" />
         </Col>
       </Row>
+      <hr />
     </Container>
   );
 };

@@ -5,13 +5,13 @@ import { Container, Row, Col } from 'react-bootstrap';
 const Projects = ({ imageData, title, description, tools, siteUrl, codeUrl, projectNumber }) => {
 
     return (
-        <Container>
+        <Container id="projects">
             {projectNumber % 2 === 0 ?
-                <Row className="my-5">
+                <Row className="my-5 mx-auto">
                     <Col md={6}>
                         <Image fluid={imageData} alt={title} />
                     </Col>
-                    <Col md={6} className="d-flex flex-column justify-content-center">
+                    <Col md={6} className="d-flex flex-column justify-content-center align-items-end">
                         <h4 className="text-primary">{title}</h4>
                         <p>{description}</p>
                         <p className="text-muted">{tools}</p>
