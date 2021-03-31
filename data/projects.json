@@ -1,0 +1,38 @@
+[
+  {
+    "title": "S'more Time in the Smokies",
+    "siteUrl": "https://smoretimeinthesmokies.com",
+    "codeUrl": "github",
+    "image": "./images/project-1.png",
+    "description": "sdfhasdfahsdfklasf",
+    "tools": "Wordpress | PHP | Bootstrap | HTML | CSS",
+    "projectNumber": 1
+  },
+  {
+    "title": "Dazzle Jewelry Store",
+    "siteUrl": "https://smoretimeinthesmokies.com",
+    "codeUrl": "github",
+    "image": "./images/project-2.png",
+    "description": "sdfhasdfahsdfklasf",
+    "tools": "MongoDb | Express | React | Redux | Node.js | Bootstrap",
+    "projectNumber": 2
+  },
+  {
+    "title": "Penny's Animal Sanctuary",
+    "siteUrl": "https://pennyssanctuary.web.app",
+    "codeUrl": "github",
+    "image": "./images/project-3.png",
+    "description": "sdfhasdfahsdfklasf",
+    "tools": "MongoDb | Express | React | Node.js | CSS",
+    "projectNumber": 3
+  },
+  {
+    "title": "Common Cents Budget Tracker",
+    "siteUrl": "https://smoretimeinthesmokies.com",
+    "codeUrl": "github",
+    "image": "./images/project-4.png",
+    "description": "sdfhasdfahsdfklasf",
+    "tools": "React | Redux | Firebase | CSS",
+    "projectNumber": 4
+  }
+]
