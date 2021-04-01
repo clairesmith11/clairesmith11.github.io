@@ -9,7 +9,7 @@ const Projects = ({ imageData, title, description, tools, siteUrl, codeUrl, proj
             {projectNumber % 2 === 0 ?
                 <Row className="my-5 mx-auto">
                     <Col md={6}>
-                        <Image fluid={imageData} alt={title} />
+                        <Image fluid={imageData} alt={title} className="rounded shadow" />
                     </Col>
                     <Col md={6} className="d-flex flex-column justify-content-center align-items-end">
                         <h4 className="text-primary">{title}</h4>
@@ -33,7 +33,7 @@ const Projects = ({ imageData, title, description, tools, siteUrl, codeUrl, proj
                         </Row>
                     </Col>
                     <Col md={6}>
-                        <Image fluid={imageData} alt={title} />
+                        <Image fluid={imageData} alt={title} className="rounded shadow" />
                     </Col>
 
                 </Row>}
