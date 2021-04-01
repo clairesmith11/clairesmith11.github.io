@@ -39,7 +39,7 @@ const ContactForm = () => {
 
 
     return (
-        <section id="contact" className="padding-sides-lg">
+        <section id="contact" className="contact-form padding-sides-lg">
             {contactSuccess &&
                 <Alert variant="success">
                     {contactSuccess}
