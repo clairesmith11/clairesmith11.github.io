@@ -13,11 +13,11 @@ const Projects = ({ imageData, title, description, tools, siteUrl, codeUrl, proj
                     </Col>
                     <Col md={6} className="d-flex flex-column justify-content-center align-items-end">
                         <h4 className="text-primary">{title}</h4>
-                        <p>{description}</p>
+                        <p className="text-right">{description}</p>
                         <p className="text-muted">{tools}</p>
                         <Row>
-                            <a target="blank" href={siteUrl} className="btn btn-primary mx-3">Visit Site</a>
-                            <a target="blank" href={codeUrl} className="btn btn-secondary">View Code</a>
+                            {siteUrl && <a target="blank" href={siteUrl} className="btn btn-primary mx-3">Visit Site</a>}
+                            {codeUrl && <a target="blank" href={codeUrl} className="btn btn-secondary">View Code</a>}
                         </Row>
                     </Col>
                 </Row>

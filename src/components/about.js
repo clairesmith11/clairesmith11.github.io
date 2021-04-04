@@ -12,8 +12,10 @@ const About = ({ data }) => {
       <Row>
         <Col md={7} className="d-flex flex-column justify-content-center">
           <div>
-            <h5 className="mb-3">HELLO WORLD! I'M A SELF-TAUGHT WEB DEVELOPER</h5>
-            <p>Aenean dapibus tortor orci, at facilisis nulla ultrices a. Nunc condimentum augue hendrerit posuere posuere. Nunc mattis auctor ex quis sollicitudin. Nullam vitae metus vitae neque fermentum scelerisque non vel enim. Phasellus facilisis pulvinar elit, sit amet consequat arcu ultrices vitae. Aliquam viverra dui vel ipsum tristique, quis congue felis imperdiet. Nam pellentesque dui faucibus velit dapibus semper. Etiam commodo enim vitae sagittis dignissim. Pellentesque pharetra sit amet enim vel congue. </p>
+            <h4 className="mb-3"><code>Hello World!</code></h4>
+            <p>I am a self-taught web developer from north central Indiana. My focus is the MERN full stack with additional training in vanilla JavaScript and jQuery, responsive web design with HTML and CSS as well as CSS libraries like Bootstrap, and the Wordpress content management system. </p>
+            <p>I discovered my love for coding by accident in May 2020, and I have been writing code every day since. My training regimen consists of freeCodeCamp, from which I have earned three certifications (and I am nearly finished with my fourth), video courses from quality instructors like Brad Traversy and Max Schwarzmuller, and online research into Github repos and official docs.</p>
+            <p>My path to web development has been a winding one: I earned my Bachelor's degree in Journalism in 2011 and worked as a small-town reporter for four years before moving into the banking industry. It wasn't until I logged my first <code>Hello World!</code> that I truly knew I had found my passion.</p>
             <SocialIcons color="color-primary" />
             <Link to='/contact'><Button variant="link" className="mx-0 my-3">Contact me &rarr;</Button></Link>
           </div>
