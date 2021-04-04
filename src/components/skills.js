@@ -14,18 +14,18 @@ const Skills = (props) => (
         <Row className="d-flex justify-content-center mt-5 text-center">
             <Col md={3} className="my-2">
                 <FontAwesomeIcon className="skills-icon" icon={faCode} size="6x" />
-                <h5 className="my-3">FRONT END</h5>
-                <p>HTML5, CSS3, JavaScript, React, Redux, jQuery, Wordpress, Bootstrap, SASS, Gatsby, Responsive Design</p>
+                <h4 className="my-3">FRONT END</h4>
+                <p>HTML5 | CSS | JavaScript | React | Redux | jQuery | Wordpress | Bootstrap | SASS | Gatsby | Responsive Design</p>
             </Col>
             <Col md={3} className="my-2">
                 <FontAwesomeIcon className="skills-icon" icon={faServer} size="6x" />
-                <h5 className="my-3">BACK END</h5>
-                <p>Node.js, Express, MongoDB, REST APIs, PHP for Wordpress</p>
+                <h4 className="my-3">BACK END</h4>
+                <p>Node.js | Express | MongoDB | Mongoose | REST APIs | PHP for Wordpress</p>
             </Col>
             <Col md={3} className="my-2">
                 <FontAwesomeIcon className="skills-icon" icon={faCodeBranch} size="6x" />
-                <h5 className="my-3">ENVIRONMENT</h5>
-                <p>Git, Github, Heroku, NPM, VSCode</p>
+                <h4 className="my-3">ENVIRONMENT</h4>
+                <p>Git | Github | MVC architecture | Heroku | DeployHQ | NPM | VSCode | Node debugger</p>
             </Col>
         </Row>
         <hr />
