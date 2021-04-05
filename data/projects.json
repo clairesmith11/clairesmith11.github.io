@@ -10,7 +10,7 @@
   },
   {
     "title": "Dazzle Jewelry Store",
-    "siteUrl": "site",
+    "siteUrl": "https://dazzle-jewelry.herokuapp.com/",
     "codeUrl": "https://github.com/clairesmith11/dazzle-ecommerce-MERN",
     "image": "./images/project-2.png",
     "description": "A demo MERN-stack app inspired by a Brad Traversy course but coded on my own. This completely-custom ecommerce site features a React SPA frontend paired with a RESTful API and a NoSQL database. My aim was to practice my skills in the MERN stack and add functionality for protected and admin routes, updating and creating new product documents, secure login with JSON web tokens, and state management with a combination of Redux for global state and React Hooks for local component state.",
