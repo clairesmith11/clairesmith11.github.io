@@ -27,12 +27,12 @@
     "projectNumber": 3
   },
   {
-    "title": "Common Cents Budget Tracker",
-    "siteUrl": null,
-    "codeUrl": "https://github.com/clairesmith11/common-cents-budget-app",
+    "title": "Events Calendar",
+    "siteUrl": "http://ecalendar-2021.herokuapp.com/",
+    "codeUrl": "https://github.com/clairesmith11/ecalendar",
     "image": "./images/project-4.png",
-    "description": "A simple monthly budget comparison tool built with React and Redux. Users can input their expenses and income by category, then save their monthly budget to a Firebase backend for comparison to other months. A goal-setting tool allows them to see how much of their budget for a particular category has already been spent.",
-    "tools": "React | Redux | Firebase | CSS",
+    "description": "A responsive calendar app for viewing, adding, editing, and deleting appointments and events. Uses MongoDb to persist appointments in memory and basic CRUD operations in Node/Express. Built for the Chingu Voyage 30 prework, so it uses as few external libraries as possible.",
+    "tools": "React | MongoDb | Node | Express | Bootstrap",
     "projectNumber": 4
   }
 ]
